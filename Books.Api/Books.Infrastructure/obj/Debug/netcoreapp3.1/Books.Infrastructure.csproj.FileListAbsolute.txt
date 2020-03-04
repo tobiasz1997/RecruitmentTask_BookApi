@@ -1,0 +1,11 @@
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\bin\Debug\netcoreapp3.1\Books.Infrastructure.deps.json
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\bin\Debug\netcoreapp3.1\Books.Infrastructure.dll
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\bin\Debug\netcoreapp3.1\Books.Infrastructure.pdb
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\bin\Debug\netcoreapp3.1\Books.Core.dll
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\bin\Debug\netcoreapp3.1\Books.Core.pdb
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\obj\Debug\netcoreapp3.1\Books.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\obj\Debug\netcoreapp3.1\Books.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\obj\Debug\netcoreapp3.1\Books.Infrastructure.AssemblyInfo.cs
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\obj\Debug\netcoreapp3.1\Books.Infrastructure.csproj.CopyComplete
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\obj\Debug\netcoreapp3.1\Books.Infrastructure.dll
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Infrastructure\obj\Debug\netcoreapp3.1\Books.Infrastructure.pdb

@@ -1,0 +1,20 @@
+<mat-card>
+  <p><span class="title">{{ book.title }}</span></p>
+  <form (submit)="onUpdateBook(bookForm)" #bookForm="ngForm">
+    <mat-form-field>
+      <textarea
+        matInput
+        type="text"
+        name="description"
+        [ngModel]="book.description"
+        #content="ngModel">
+      </textarea>
+    </mat-form-field>
+    <button
+      mat-raised-button
+      color="accent"
+      type="submit">
+      Save
+    </button>
+  </form>
+</mat-card>

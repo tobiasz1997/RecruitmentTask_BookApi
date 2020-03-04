@@ -1,0 +1,62 @@
+<mat-card>
+  <form (submit)="onAddBook(bookForm)" #bookForm="ngForm">
+    <mat-form-field>
+      <input
+      matInput
+      type="text"
+      name="title"
+      ngModel
+      required
+      placeholder="Title"
+      #title="ngModel">
+      <mat-error *ngIf="title.invalid">Please enter title</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+      matInput
+      type="text"
+      name="author"
+      placeholder="Author"
+      required
+      ngModel>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+      matInput
+      type="text"
+      name="category"
+      placeholder="Category"
+      ngModel>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+      matInput
+      type="text"
+      name="publishingCompany"
+      placeholder="Published Company"
+      ngModel>
+    </mat-form-field>
+    <mat-form-field>
+    <input
+      matInput
+      type="text"
+      name="description"
+      placeholder="Description"
+      ngModel>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+      matInput
+      type="number"
+      placeholder="Description"
+      name="pages"
+      ngModel>
+    </mat-form-field>
+    <button
+      mat-raised-button
+      color="accent"
+      type="submit">
+      Save
+    </button>
+  </form>
+</mat-card>

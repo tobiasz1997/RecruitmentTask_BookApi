@@ -1,0 +1,11 @@
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\bin\Debug\netcoreapp3.1\Books.Data.deps.json
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\bin\Debug\netcoreapp3.1\Books.Data.dll
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\bin\Debug\netcoreapp3.1\Books.Data.pdb
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\bin\Debug\netcoreapp3.1\Books.Core.dll
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\bin\Debug\netcoreapp3.1\Books.Core.pdb
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\obj\Debug\netcoreapp3.1\Books.Data.csprojAssemblyReference.cache
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\obj\Debug\netcoreapp3.1\Books.Data.AssemblyInfoInputs.cache
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\obj\Debug\netcoreapp3.1\Books.Data.AssemblyInfo.cs
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\obj\Debug\netcoreapp3.1\Books.Data.csproj.CopyComplete
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\obj\Debug\netcoreapp3.1\Books.Data.dll
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.MySqlDatabase\obj\Debug\netcoreapp3.1\Books.Data.pdb

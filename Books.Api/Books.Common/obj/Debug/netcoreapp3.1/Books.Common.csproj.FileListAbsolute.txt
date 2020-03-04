@@ -1,0 +1,8 @@
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Common\bin\Debug\netcoreapp3.1\Books.Common.deps.json
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Common\bin\Debug\netcoreapp3.1\Books.Common.dll
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Common\bin\Debug\netcoreapp3.1\Books.Common.pdb
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Common\obj\Debug\netcoreapp3.1\Books.Common.csprojAssemblyReference.cache
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Common\obj\Debug\netcoreapp3.1\Books.Common.AssemblyInfoInputs.cache
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Common\obj\Debug\netcoreapp3.1\Books.Common.AssemblyInfo.cs
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Common\obj\Debug\netcoreapp3.1\Books.Common.dll
+C:\Users\Grzegorz\Desktop\BookApi\Books.Api\Books.Common\obj\Debug\netcoreapp3.1\Books.Common.pdb

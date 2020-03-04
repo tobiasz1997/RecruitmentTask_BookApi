@@ -1,0 +1,26 @@
+<mat-accordion multi="true" *ngIf="books.length > 0">
+  <mat-expansion-panel *ngFor="let book of books">
+    <mat-expansion-panel-header>
+      {{ book.title }}
+    </mat-expansion-panel-header>
+    <p><span class="title">{{ book.title }}</span></p>
+    <p><span>Author: </span> {{ book.author }} </p>
+    <p><span>Category: </span> {{ book.category }} </p>
+    <p><span>Publishing Company: </span> {{ book.publishingCompany }} </p>
+    <p><span>Description: </span> {{ book.description }} </p>
+    <p><span>Pages: </span> {{ book.pages }} </p>
+    <mat-action-row>
+      <button
+        mat-button
+        color="primary"
+        [routerLink]="['/edit', book.id]"
+        >Edit</button>
+      <button
+        mat-button
+        color="warn"
+        (click)="onDelete(book.id)"
+        >Delete</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+</mat-accordion>
+<p class="mat-body-1" *ngIf="books.length <= 0">No books in database !</p>

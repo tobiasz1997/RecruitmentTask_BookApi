@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.MySqlDatabase\\Books.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.Core\\Books.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.Core\\Books.Core.csproj",
+        "projectName": "Books.Core",
+        "projectPath": "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.Core\\Books.Core.csproj",
+        "packagesPath": "C:\\Users\\Grzegorz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Grzegorz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.MySqlDatabase\\Books.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.MySqlDatabase\\Books.Data.csproj",
+        "projectName": "Books.Data",
+        "projectPath": "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.MySqlDatabase\\Books.Data.csproj",
+        "packagesPath": "C:\\Users\\Grzegorz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.MySqlDatabase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Grzegorz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.Core\\Books.Core.csproj": {
+                "projectPath": "C:\\Users\\Grzegorz\\Desktop\\BookApi\\Books.Api\\Books.Core\\Books.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+mat-form-field {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+.title {
+  color: #3F51B5;
+  font-size: large;
+  font-weight: bold;
+}
