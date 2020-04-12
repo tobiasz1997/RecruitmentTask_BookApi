@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Books.Infrastructure.Commands.Events
+﻿namespace Books.Infrastructure.Commands.Events
 {
+    using System;
+
     public class CreateBook
     {
         public Guid Id { get; set; }
@@ -14,6 +12,4 @@ namespace Books.Infrastructure.Commands.Events
         public string Description { get; set; }
         public int Pages { get; set; }
     }
-    
-
 }

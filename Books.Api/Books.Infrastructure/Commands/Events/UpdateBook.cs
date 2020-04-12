@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Books.Infrastructure.Commands.Events
+﻿namespace Books.Infrastructure.Commands.Events
 {
     public class UpdateBook
     {

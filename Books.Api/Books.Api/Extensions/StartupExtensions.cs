@@ -1,11 +1,7 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Books.Api.Extensions
+﻿namespace Books.Api.Extensions
 {
+    using Microsoft.Extensions.Configuration;
+
     public static class StartupExtensions
     {
         public static TModel GetOptions<TModel>(this IConfiguration config, 

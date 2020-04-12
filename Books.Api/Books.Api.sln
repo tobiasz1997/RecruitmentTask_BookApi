@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.Core", "Books.Core\Bo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.Infrastructure", "Books.Infrastructure\Books.Infrastructure.csproj", "{6084A389-1D12-4D8C-B3DE-7B01E462B645}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.MySqlDatabase", "Books.MySqlDatabase\Books.MySqlDatabase.csproj", "{2AF75CCD-3626-4B87-BD91-166B8A041A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.Database", "Books.MySqlDatabase\Books.Database.csproj", "{2AF75CCD-3626-4B87-BD91-166B8A041A39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Common", "Books.Common\Books.Common.csproj", "{496CCA09-CC9A-40AF-821F-E2A676BFD9A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books.Common", "Books.Common\Books.Common.csproj", "{496CCA09-CC9A-40AF-821F-E2A676BFD9A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

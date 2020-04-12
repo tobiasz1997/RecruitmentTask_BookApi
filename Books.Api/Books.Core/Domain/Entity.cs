@@ -1,14 +1,12 @@
-﻿using System;
-
-namespace Books.Core.Domain
+﻿namespace Books.Core.Domain
 {
+    using System;
+
     public abstract class Entity
     {
         public Guid Id { get; protected set; }
 
-        protected Entity()
-        {
-            Id = Guid.NewGuid();
-        }
+        protected Entity() 
+            => Id = Guid.NewGuid();
     }
 }

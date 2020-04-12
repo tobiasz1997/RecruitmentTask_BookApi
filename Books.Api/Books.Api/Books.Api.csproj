@@ -11,7 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Books.Common\Books.Common.csproj" />
     <ProjectReference Include="..\Books.Infrastructure\Books.Infrastructure.csproj" />
-    <ProjectReference Include="..\Books.MySqlDatabase\Books.MySqlDatabase.csproj" />
+    <ProjectReference Include="..\Books.MySqlDatabase\Books.Database.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

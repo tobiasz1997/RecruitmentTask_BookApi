@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Books.Core.Domain
+﻿namespace Books.Core.Domain
 {
+    using System;
+
     public class Book : Entity
     {
         public string Title { get; protected set; }
@@ -11,7 +11,9 @@ namespace Books.Core.Domain
         public string Description { get; protected set; }
         public int Pages { get; protected set; }
 
-        protected Book() { }
+        protected Book()
+        {
+        }
 
         public Book(Guid id, string title, string author, string category, string publishingCompany, string description,
                     int pages)

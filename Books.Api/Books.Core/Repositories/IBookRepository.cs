@@ -1,11 +1,10 @@
-﻿using Books.Core.Domain;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Books.Core.Repositories
+﻿namespace Books.Core.Repositories
 {
+    using Domain;
+    using System;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+
     public interface IBookRepository
     {
         Task<Book> GetAsync(Guid id);

@@ -1,12 +1,10 @@
-﻿using Books.Core.Domain;
-using Books.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Books.Infrastructure.Extensions
+﻿namespace Books.Infrastructure.Extensions
 {
+    using Core.Repositories;
+    using System;
+    using Core.Domain;
+    using System.Threading.Tasks;
+
     public static class RepositoryExtensions
     {
         public static async Task<Book> GetOrFailAsync(this IBookRepository repository, Guid id)

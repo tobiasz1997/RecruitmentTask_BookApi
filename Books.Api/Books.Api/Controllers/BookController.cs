@@ -1,22 +1,18 @@
-﻿using Books.Infrastructure.Commands.Events;
-using Books.Infrastructure.Services;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Books.Api.Controllers
+﻿namespace Books.Api.Controllers
 {
+    using Infrastructure.Commands.Events;
+    using Infrastructure.Services;
+    using Microsoft.AspNetCore.Mvc;
+    using System;
+    using System.Threading.Tasks;
+
     [Route("book")]
     public class BookController : Controller
     {
         private readonly IBookService _bookService;
 
-        public BookController(IBookService bookservice)
-        {
-            _bookService = bookservice;
-        }
+        public BookController(IBookService bookService) => _bookService = bookService;
+
 
         [HttpGet]
         public async Task<IActionResult> GetAllBooks()
@@ -43,17 +39,17 @@ namespace Books.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]CreateBook command)
+        public async Task<IActionResult> Post([FromBody] CreateBook command)
         {
             var newId = Guid.NewGuid();
             await _bookService.AddBookAsync(newId, command.Title, command.Author, command.Category,
                                             command.PublishingCompany, command.Description, command.Pages);
 
-            return StatusCode(201, new { id = newId });
+            return StatusCode(201, new {id = newId});
         }
 
         [HttpPut("{bookId}")]
-        public async Task<IActionResult> Put(Guid bookId, [FromBody]UpdateBook command)
+        public async Task<IActionResult> Put(Guid bookId, [FromBody] UpdateBook command)
         {
             await _bookService.UpdateBookAsync(bookId, command.Description);
             return NoContent(); //204

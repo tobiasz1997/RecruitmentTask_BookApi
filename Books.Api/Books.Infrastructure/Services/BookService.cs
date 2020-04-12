@@ -1,15 +1,14 @@
-﻿using AutoMapper;
-using Books.Core.Domain;
-using Books.Core.Repositories;
-using Books.Infrastructure.DTO;
-using Books.Infrastructure.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Books.Infrastructure.Services
+﻿namespace Books.Infrastructure.Services
 {
+    using AutoMapper;
+    using Core.Domain;
+    using Core.Repositories;
+    using DTO;
+    using Extensions;
+    using System;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+
     public class BookService : IBookService
     {
         private readonly IBookRepository _bookRepository;
@@ -21,11 +20,12 @@ namespace Books.Infrastructure.Services
             _mapper = mapper;
         }
 
-        public async Task<BookDTO> GetAsync(Guid id)
+
+        public async Task<BookDto> GetAsync(Guid id)
         {
             var book = await _bookRepository.GetAsync(id);
 
-            return new BookDTO
+            return new BookDto
             {
                 Id = book.Id,
                 Title = book.Title,
@@ -37,10 +37,10 @@ namespace Books.Infrastructure.Services
             };
         }
 
-        public async Task<IEnumerable<BookDTO>> GetAllAsync()
+        public async Task<IEnumerable<BookDto>> GetAllAsync()
         {
             var books = await _bookRepository.GetAllAsync();
-            return _mapper.Map<IEnumerable<BookDTO>>(books);
+            return _mapper.Map<IEnumerable<BookDto>>(books);
         }
 
         public async Task AddBookAsync(Guid id, string title, string author, string category, string publishingCompany,
@@ -48,9 +48,8 @@ namespace Books.Infrastructure.Services
         {
             var book = await _bookRepository.GetAsync(id);
             if (book != null)
-            {
                 throw new Exception($"Book {id} is exist");
-            }
+
             book = new Book(id, title, author, category, publishingCompany, description, pages);
             await _bookRepository.AddBookAsync(book);
         }

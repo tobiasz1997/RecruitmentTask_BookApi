@@ -1,18 +1,18 @@
-﻿using Books.Core.Domain;
-using Books.Infrastructure.DTO;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Books.Infrastructure.Services
+﻿namespace Books.Infrastructure.Services
 {
+    using DTO;
+    using System;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+
     public interface IBookService
     {
-        Task<BookDTO> GetAsync(Guid id);
-        Task<IEnumerable<BookDTO>> GetAllAsync();
+        Task<BookDto> GetAsync(Guid id);
+        Task<IEnumerable<BookDto>> GetAllAsync();
+
         Task AddBookAsync(Guid id, string title, string author, string category, string publishingCompany,
                           string description, int pages);
+
         Task UpdateBookAsync(Guid id, string description);
         Task DeleteBookAsync(Guid id);
     }

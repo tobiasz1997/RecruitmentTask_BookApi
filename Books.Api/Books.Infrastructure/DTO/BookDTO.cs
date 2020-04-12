@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Books.Infrastructure.DTO
+﻿namespace Books.Infrastructure.DTO
 {
-    public class BookDTO
+    using System;
+
+    public class BookDto
     {
         public Guid Id { get; set; }
         public string Title { get; set; }
