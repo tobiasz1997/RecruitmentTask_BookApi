@@ -1,4 +1,6 @@
-﻿namespace Books.Api.Controllers
+﻿using Microsoft.Web.Http;
+
+namespace Books.Api.Controllers
 {
     using Infrastructure.Commands.Events;
     using Infrastructure.Services;
@@ -6,7 +8,9 @@
     using System;
     using System.Threading.Tasks;
 
+    [ApiController]
     [Route("book")]
+    [ApiVersion("1.7")]
     public class BookController : Controller
     {
         private readonly IBookService _bookService;
